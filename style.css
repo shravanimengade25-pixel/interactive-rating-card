@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding: 0;
+
+}
+
+ body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: black;
+  font-family: "Overpass", sans-serif;
+  color:white;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+width:260px;
+padding:25px;
+background-color:rgb(36, 44, 55); 
+border-radius: 18px;
+}
+.star{
+    background-color: dimgray;
+    text-align: left;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.card h1{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 14px;
+}
+.descr{
+    font-size: smaller;
+    color: grey;
+
+
+}
+.ratings{
+display:flex;
+
+justify-content: space-between;
+margin-top: 12px;
+margin-bottom: 12px;
+
+}
+
+.r{
+    display:flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color:lightgray;
+    background-color:dimgrey;
+height: 40px;
+    width: 40px;
+margin-top: 14px;
+margin-bottom: 14px;
+    border-radius: 50%;
+    transition:0.3s;
+}
+.r:hover{
+    color:white;
+    background-color: orange
+    ;
+}
+.r.selected{
+       color:white;
+    background-color: lightgray;
+    ;
+}
+.submit{
+    width:100%;
+    font-weight: bold;
+    border:none;
+    letter-spacing: normal;
+    border-radius:20px;
+      background-color: rgb(255, 106, 0);
+    color:black;
+    font-size: 14px;
+    padding:11px;
+    transition:0.3s;
+}
+.submit:hover{
+ background-color:white;
+    color:orange;
+}
